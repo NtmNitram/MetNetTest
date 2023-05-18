@@ -1,7 +1,8 @@
 <header>
-  <div class="home">
-    <h2>BIENVENIDO A LA PRUEBA DE PELICULAS</h2>
-  </div>
+  <h2>BIENVENIDO A LA PRUEBA DE PELICULAS</h2>
+  <img class="banner-image" src="../../../assets/Banner.jpg" alt="Banner">
+    
+  
 
 <div class="Template" *ngFor="let movie of movies">
   <a [routerLink]="['/movies', movie.id]">
