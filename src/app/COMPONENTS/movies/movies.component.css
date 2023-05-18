@@ -1,20 +1,21 @@
 
-.banner{
-  background-image: url(../../../assets/Banner.jpg);
-    
+header{
+  background-color: black;
+  color: white
+
 }
 
+.home{
+  background-image: url(../../../assets/Banner.jpg);
+  width: 100%;
+}
 
 h2{
   color: #f5f5f5;
   text-align: center;
 }
 
-.Page{
-  background-color: black;
-  color: azure;
 
-}
 
 .Template {
   display: inline-block;
@@ -48,6 +49,24 @@ h2{
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+button {
+  display: block;
+  margin:  20px auto;
+  background-color: #fdfdfd;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #9f9f9f;
+}
+
 
 @media (max-width: 768px) {
   .card {

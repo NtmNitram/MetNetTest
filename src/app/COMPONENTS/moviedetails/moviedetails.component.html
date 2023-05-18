@@ -1,28 +1,38 @@
 <div class="Template2" *ngIf="movieDetails">
-    <img [src]="'https://image.tmdb.org/t/p/original/' + movieDetails.backdrop_path" alt="Movie Backdrop">
-    <h2>{{ movieDetails.title }}</h2>
-    
+  <img class="backdrop-image" [src]="'https://image.tmdb.org/t/p/original/' + movieDetails.backdrop_path" alt="Movie Backdrop">
+  <h2>{{ movieDetails.title }}</h2>
+  
+  <div class="section">
     <h3>Overview</h3>
     <p>{{ movieDetails.overview }}</p>
-    
+  </div>
+  
+  <div class="section">
     <h3>Genres</h3>
     <ul>
       <li *ngFor="let genre of movieDetails.genres">{{ genre.name }}</li>
     </ul>
-    
+  </div>
+  
+  <div class="section">
     <h3>Spoken Languages</h3>
     <ul>
       <li *ngFor="let language of movieDetails.spoken_languages">{{ language.name }}</li>
     </ul>
-    
+  </div>
+  
+  <div class="section">
     <h3>Budget</h3>
     <p>{{ movieDetails.budget }}</p>
-    
+  </div>
+  
+  <div class="section">
     <h3>Production Companies</h3>
     <ul>
       <li *ngFor="let company of movieDetails.production_companies">
-        <img [src]="'https://image.tmdb.org/t/p/original/' + company.logo_path" alt="Production Company Logo">
+        <img class="company-logo" [src]="'https://image.tmdb.org/t/p/original/' + company.logo_path" alt="Production Company Logo">
         {{ company.name }}
       </li>
     </ul>
   </div>
+</div>

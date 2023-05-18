@@ -1,12 +1,7 @@
-<div class="banner">
 <header>
-  <h2>BIENVENIDO A LA PRUEBA DE PELICULAS</h2>
-
-</header>
-</div>
-
-<div class="Page">
-
+  <div class="home">
+    <h2>BIENVENIDO A LA PRUEBA DE PELICULAS</h2>
+  </div>
 
 <div class="Template" *ngFor="let movie of movies">
   <a [routerLink]="['/movies', movie.id]">
@@ -19,6 +14,6 @@
       </div>
     </div>
   </a>
-</div>
+</div> <br>
 <button (click)="loadMoreMovies()">Load More</button>
-</div>
+</header>
