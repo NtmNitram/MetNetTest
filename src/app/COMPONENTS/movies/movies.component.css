@@ -21,11 +21,12 @@ h2 {
 
 .Template {
   display: inline-block;
+  width: 30%;
 }
 
 .card {
   width: 300px;
-  background-color: #f5f5f5;
+  color: white;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
