@@ -1,0 +1,24 @@
+<div class="banner">
+<header>
+  <h2>BIENVENIDO A LA PRUEBA DE PELICULAS</h2>
+
+</header>
+</div>
+
+<div class="Page">
+
+
+<div class="Template" *ngFor="let movie of movies">
+  <a [routerLink]="['/movies', movie.id]">
+    <div class="card">
+      <img class="card-image" [src]="'https://image.tmdb.org/t/p/original/' + movie.poster_path" alt="Movie Poster">
+      <div class="card-description">
+        <h3>{{ movie.title }}</h3>
+        <p>Release Date: {{ movie.release_date }}</p>
+        <p>{{ movie.overview }}</p>
+      </div>
+    </div>
+  </a>
+</div>
+<button (click)="loadMoreMovies()">Load More</button>
+</div>
