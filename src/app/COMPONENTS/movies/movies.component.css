@@ -8,7 +8,7 @@ header {
 .banner-image {
   display: block;
   width: 100%;
-  height: 400px; /* Ajusta el valor de altura según tus preferencias */
+  height: 400px; 
   object-fit: cover;
   object-position: center;
 }
@@ -33,7 +33,7 @@ h2 {
 
 .card-image {
   width: 100%;
-  height: 200px; /* Ajusta el valor de altura según tus preferencias */
+  height: 200px; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -43,7 +43,7 @@ h2 {
 }
 
 .card-description h3 {
-  font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+  font-size: 16px; 
   margin-bottom: 5px;
 }
 
