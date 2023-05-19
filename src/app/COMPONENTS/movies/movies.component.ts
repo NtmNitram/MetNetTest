@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+// Define la interfaz Movie que representa la estructura de los objetos de película
 interface Movie {
   backdrop_path: string;
   id: number;
@@ -17,16 +18,17 @@ interface Movie {
   styleUrls: ['./movies.component.css']
 })
 export class MoviesComponent implements OnInit {
-  movies: Movie[] = [];
+  movies: Movie[] = []; // Array de películas
   apiKey = 'f269218f9ac41fda847402ed563424ef';
-  page = 1;
+  page = 1; // Página actual de resultados de películas
 
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.getMovies();
+    this.getMovies(); // Se obtienen las películas al inicializar el componente
   }
 
+  // Obtiene las películas populares de la API y las asigna a la variable 'movies'
   getMovies(): void {
     const url = `https://api.themoviedb.org/3/movie/popular?api_key=${this.apiKey}&language=en-US&page=${this.page}`;
 
@@ -35,8 +37,16 @@ export class MoviesComponent implements OnInit {
     });
   }
 
+  // Carga más películas al incrementar el número de página y llamar a 'getMovies'
   loadMoreMovies(): void {
     this.page++;
     this.getMovies();
   }
 }
+
+
+
+
+
+
+
