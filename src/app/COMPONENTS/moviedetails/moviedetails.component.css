@@ -1,8 +1,16 @@
 .Template2 {
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    position: relative;
+  }
+  
+.Template2 h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding: 10px;
   }
   
   .backdrop-image {
@@ -12,11 +20,6 @@
     margin-bottom: 20px;
   }
   
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: aliceblue;
-  }
   
   .section {
     margin-bottom: 20px;
@@ -26,6 +29,7 @@
     font-size: 18px;
     margin-bottom: 10px;
     color: aliceblue;
+    text-align: center;
   }
   
   p {
