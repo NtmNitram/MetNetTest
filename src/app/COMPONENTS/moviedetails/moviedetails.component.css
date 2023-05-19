@@ -1,5 +1,5 @@
 .Template2 {
-    background-color: black;
+    background-color: rgb(42, 41, 41);
     position: relative;
   }
   
@@ -28,22 +28,25 @@
   h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: aliceblue;
+    color: white;
     text-align: center;
   }
   
   p {
+    color: white;
     font-size: 14px;
     margin-bottom: 10px;
   }
   
   ul {
+    color: white;
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
   li {
+    color: white;
     margin-bottom: 5px;
   }
   

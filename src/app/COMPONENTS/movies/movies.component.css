@@ -1,6 +1,6 @@
 
 header {
-  background-color: black;
+  background-color: rgb(46, 45, 45);
   color: white
 
 }
@@ -14,7 +14,6 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 1;
   font-size: 60px;
   color: #ffffff;
@@ -41,14 +40,17 @@ h2 {
 .Template {
   display: inline-block;
   width: 30%;
+
 }
 
 .card {
-  width: 300px;
+  width: 450px;
   color: white;
   border-radius: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  margin-left: 20%;
+  margin-top: 30%;
+  margin-right: 20%;
+  
 }
 
 .card-image {
@@ -74,11 +76,11 @@ h2 {
 
 button {
   display: block;
-  margin:  20px auto;
+  margin: 70px auto;
   background-color: #fdfdfd;
   color: #000000;
-  border: none;
-  padding: 10px 20px;
+  border-bottom: 20%;
+  padding: 10px 40px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
