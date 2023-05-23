@@ -3,9 +3,9 @@
     <h2>BIENVENIDO A LA PRUEBA DE PELÍCULAS</h2>
     <img class="banner-image" src="../../../assets/Banner.jpg" alt="Banner">
   </div>
+
     
   
-
 <div class="Template" *ngFor="let movie of movies">
   <a [routerLink]="['/movies', movie.id]">
     <div class="card">
@@ -20,3 +20,9 @@
 </div> <br>
 <button (click)="loadMoreMovies()">Load More</button>
 </header>
+
+
+
+
+
+

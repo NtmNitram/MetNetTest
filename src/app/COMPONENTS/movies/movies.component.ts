@@ -42,6 +42,8 @@ export class MoviesComponent implements OnInit {
     this.page++;
     this.getMovies();
   }
+
+  
 }
 
 
