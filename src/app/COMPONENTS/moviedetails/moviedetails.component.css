@@ -1,54 +1,57 @@
 .Template2 {
-    background-color: rgb(42, 41, 41);
-    position: relative;
-  }
-  
+  background-color: rgb(42, 41, 41);
+  position: relative;
+}
+
 .Template2 h2 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    font-size: 80px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .backdrop-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    color: white;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    color: white;
-    margin-bottom: 5px;
-  }
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.backdrop-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: white;
+  margin-bottom: 5px;
+}
+
+
+
   
   .company-logo {
     width: 50px;

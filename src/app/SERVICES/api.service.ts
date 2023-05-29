@@ -7,11 +7,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  private API_PELIS = "";
 
   constructor(private http: HttpClient) {}
 
   public getAllPelis(): Observable<any>{
-    return this.http.get(this.API_PELIS);
+    return this.http.get('https://jsonplaceholder.typicode.com/posts/1');
   }
 }
