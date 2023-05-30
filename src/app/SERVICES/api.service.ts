@@ -14,3 +14,22 @@ export class ApiService {
     return this.http.get('https://jsonplaceholder.typicode.com/posts/1');
   }
 }
+
+
+
+
+
+
+
+/*@Injectable({
+  providedIn: 'root'
+})
+export class ApiService {
+
+
+  constructor(private http: HttpClient) {}
+
+  public getAllPelis(): Observable<any>{
+    return this.http.get('https://jsonplaceholder.typicode.com/posts/1');
+  }
+}*/

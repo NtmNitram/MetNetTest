@@ -1,16 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Movie } from '../../INTERFACES/movie';
 
-// Define la interfaz Movie que representa la estructura de los objetos de película
-interface Movie {
-  backdrop_path: string;
-  id: number;
-  original_title: string;
-  overview: string;
-  poster_path: string;
-  release_date: string;
-  title: string;
-}
+
 
 @Component({
   selector: 'app-movies',

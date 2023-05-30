@@ -16,13 +16,7 @@ export class HomeComponent implements OnInit {
     private apiService: ApiService
   ){}
 
-  //Practicando peticiones con Fetch
- /* getPosts(){
-    fetch('https://jsonplaceholder.typicode.com/posts/1')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
-
-  }*/
+  
 
   getAllPosts(){
     this.apiService.getAllPelis().subscribe({
@@ -30,5 +24,13 @@ export class HomeComponent implements OnInit {
     });
   }
 
+
+  //Practicando peticiones con Fetch
+ /* getPosts(){
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+
+  }*/
 
 }
